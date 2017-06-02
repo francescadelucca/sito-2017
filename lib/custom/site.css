@@ -1,0 +1,61 @@
+HTML { height: 100%; }
+BODY { height:100%; margin: 0px; padding: 0px;}
+BODY,P,UL LI, OL LI, TD, TH, DIV {
+	font-size: 14pt;
+	font-weight: 400;
+	font-family: "Sahitya", "Bitstream Charter", Georgia,serif;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+H1 { font-size: 36pt;}
+H3 { font-size: 22pt;}
+.h3 {font-size:22pt;}
+H4 { font-size: 16pt; margin:0px; margin-top: 12pt; }
+.mail {
+	letter-spacing: -1px;
+	font-family: "Inconsolata","Consolas","Monaco","Courier new","Courier";
+
+}
+span.phone {
+	font-weight: bold;
+	font-size: 18pt;
+}
+.playball { font-family: "Playball"; }
+
+#map {
+    height: 40em;
+}
+
+nav#navbar ul {
+	list-style-type: none;
+	padding:0.2em;
+	background-color: #00F;
+	margin-bottom: 0px;
+}
+
+#navbar ul li A { color: white; font-weight:bold; text-decoration: none;}
+
+#navbar ul li {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+section.hero {
+    color: white;
+	font-family: sans-serif;
+	font-weight:bold;
+	padding: 1em;
+	text-align:center;
+    background-image: url(http://www.ginocovili.com/banpaese.jpg);
+	background-position: center center;
+    background-size: 100% auto;
+}
+
+section.hero > div > h2 { font-size: 3em; margin-top: 0.1em; }
+section.hero > div > h3 { font-size: 2em; margin-top: 0.1em; }
+
+.container {
+    margin-top: 2em; 
+    margin-bottom: 2em; 
+    text-align:center;
+}
