@@ -67,11 +67,12 @@ section.hero > div > h3 { font-size: 2.25em; margin-top: 0.1em; }
     text-align:center;
 }
 
+.mi-occupo-di { margin: 2.5em 0; }
 
 .psicobutton {
-	height: 15em;
 	width: 85%;
 	margin-bottom: 1em;
+	padding: 1em 0.5em;
 	border: 1px solid #02A;
 	border-radius: 12px;
 	margin: 1em auto;
@@ -80,10 +81,18 @@ section.hero > div > h3 { font-size: 2.25em; margin-top: 0.1em; }
 
 .psicobutton > div {
 	background-color: #EEE;
-	min-height: 12em;
+	min-height: 4em;
 	margin: 0.5em;
+	padding:0.8em 0em;	
 	border-radius: 12px;
 }
+
+.psicobutton > a {
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+a:hover { text-decoration: underline;}
 
 #section-map {
 	border-top: 4px solid #8BE;
@@ -123,4 +132,25 @@ div.eta-evolutiva {
 
 div.info-item {
 	min-width: 220px;
+}
+
+section.contatti {
+	margin: 1em auto;
+}
+
+.blocco-contatti h3 {
+	font-size: 2em;
+}
+
+div.indirizzo > div {
+	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+
+div.info-item {
+	font-size: 1.1em;
+}
+
+h3.blurb { 
+	font-size: 2em;
 }
