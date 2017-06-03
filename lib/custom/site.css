@@ -7,6 +7,10 @@ BODY,P,UL LI, OL LI, TD, TH, DIV {
 	-webkit-font-smoothing: subpixel-antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+body { 	background-color: #F0F8FF; }
+
+A { color:navy;}
+
 H1 { font-size: 36pt;}
 H3 { font-size: 22pt;}
 .h3 {font-size:22pt;}
@@ -51,6 +55,7 @@ section.hero {
 	background-position: center center;
     background-size: auto 100%;
 	text-shadow: 0px 0px 5px rgba(0 ,0,0,1);
+	border-bottom: 4px solid #8BE;
 }
 
 section.hero > div > h2 { font-size: 3.5em; margin-top: 0.1em; }
@@ -70,6 +75,7 @@ section.hero > div > h3 { font-size: 2.25em; margin-top: 0.1em; }
 	border: 1px solid #02A;
 	border-radius: 12px;
 	margin: 1em auto;
+	background-color: #FFF;
 }
 
 .psicobutton > div {
@@ -77,4 +83,40 @@ section.hero > div > h3 { font-size: 2.25em; margin-top: 0.1em; }
 	min-height: 12em;
 	margin: 0.5em;
 	border-radius: 12px;
+}
+
+#section-map {
+	border-top: 4px solid #8BE;
+}
+
+div.psicoterapia {
+	background-image:url('http://www.amicidilazzaro.it/wp-content/uploads/2016/07/psicoterapia.jpg');
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center center;
+}
+
+div.disturbi {
+	background-image: url('http://www.mindfulnessitalia.org/sites/default/files/styles/medium/public/anxiety.png');
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: center center;
+	background-size:auto 100%;
+}
+
+div.training-autogeno {
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Presquesage_Papillon-violet.svg/800px-Presquesage_Papillon-violet.svg.png');
+	background-size: auto 100%;
+	background-position: center center;
+	background-color: white;
+	background-repeat: no-repeat;
+}
+
+div.eta-evolutiva {
+	background-image: url('https://upload.wikimedia.org/wikipedia/it/4/48/Materiale_Montessori_-_Il_cubo_del_trinomio.JPG');
+	background-size: 100% auto;
+	background-position: center center;
+	background-color: white;
+	background-repeat: no-repeat;
+	
 }
