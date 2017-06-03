@@ -28,9 +28,10 @@ span.phone {
 
 nav#navbar ul {
 	list-style-type: none;
-	padding:0.2em;
-	background-color: #00F;
+	padding:0.2em 1em;
 	margin-bottom: 0px;
+	background: rgb(0,0,112); /* Old browsers */
+	background: linear-gradient(to bottom, rgba(0,0,112,1) 0%,rgba(0,10,122,1) 89%,rgba(125,185,232,225) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 #navbar ul li A { color: white; font-weight:bold; text-decoration: none;}
@@ -49,13 +50,31 @@ section.hero {
     background-image: url(http://www.ginocovili.com/banpaese.jpg);
 	background-position: center center;
     background-size: 100% auto;
+	text-shadow: 0px 0px 5px rgba(0 ,0,0,1);
 }
 
-section.hero > div > h2 { font-size: 3em; margin-top: 0.1em; }
-section.hero > div > h3 { font-size: 2em; margin-top: 0.1em; }
+section.hero > div > h2 { font-size: 3.5em; margin-top: 0.1em; }
+section.hero > div > h3 { font-size: 2.25em; margin-top: 0.1em; }
 
 .container {
     margin-top: 2em; 
     margin-bottom: 2em; 
     text-align:center;
+}
+
+
+.psicobutton {
+	height: 15em;
+	width: 85%;
+	margin-bottom: 1em;
+	border: 1px solid #02A;
+	border-radius: 12px;
+	margin: 1em auto;
+}
+
+.psicobutton > div {
+	background-color: #EEE;
+	min-height: 12em;
+	margin: 0.5em;
+	border-radius: 12px;
 }
