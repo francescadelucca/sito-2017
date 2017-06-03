@@ -120,3 +120,7 @@ div.eta-evolutiva {
 	background-repeat: no-repeat;
 	
 }
+
+div.info-item {
+	min-width: 220px;
+}
